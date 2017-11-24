@@ -6,7 +6,7 @@
 </head>
     
 <body>
-    <form>
+    <form action="Submit.php" method="post">
          Andvändanamn:
          <input type = "text" name = "Username"><br>
         
