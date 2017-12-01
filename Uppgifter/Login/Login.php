@@ -11,7 +11,7 @@
          <input type = "text" name = "Username"><br>
         
          Lösenord:
-         <input type = "password" name = "password">
+         <input type = "password" name = "Password">
          
          <input type="submit" name = "Klick">
          
