@@ -10,4 +10,10 @@ $query = "Select*From registera where Username = $Username AND Password = $Passw
 mysqli_query($dbc,$query);
 
 
+$query = "Select*from register where Username = $Username, Password = $Password;"
+    
+    mysqli_query($dbc,$query);
+    echo $dbc;
+    
+  
 ?>
