@@ -29,23 +29,7 @@
               x.style.width = "32px";
               }
             </script>
-        
-       <h2> Uppgift 3</h2>
-        <button onclick="myFunction()"> Tryck </button>
-        <img id="Bild" src="3.png">
-        
-         <script>
-             
-          function myFunction() {
-          var x = document.getElementById("Bild");
-          if (x.style.display === "none") {
-          x.style.display = "block";
-          } else {
-          x.style.display = "none";
-          }
-          }
-          </script>
-             
+    
     </body>
 
 
