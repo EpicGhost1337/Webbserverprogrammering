@@ -45,6 +45,15 @@
               }   
             </script>
         
+        <h2> Uppgift 4</h2>
+        <button type="button" onclick="Färg()"> Ändra Bakgrundsfärg</button>
+         
+          <script>
+           function Färg() {
+           document.body.style.backgroundColor = "lightblue";
+           }
+          </script>
+        
     </body>
 
 
