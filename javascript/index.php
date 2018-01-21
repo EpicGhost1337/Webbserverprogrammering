@@ -59,7 +59,7 @@
         
           <script>
            function Clear(){
-               document.body.innerHTML = "Hej Baok";
+               document.body.innerHTML = "Hej Baok!";
            }
           </script>
     </body>
