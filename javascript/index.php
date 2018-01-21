@@ -4,7 +4,7 @@
 
     <head>
         <style>
-            #fargBox{
+            #FargBox{
                 width: 50px;
                 height: 50px;
                 background-color: blue;
@@ -71,7 +71,7 @@
           </script>
         
         <h2> Uppgift 6</h2>
-         <div id="fargBox" onmousedown="Box()"></div>
+         <div id="FargBox" onmousedown="Box()"></div>
           
         <script>
             function Box(){
@@ -84,7 +84,7 @@
                     
 				} 
                 else if (x.style.backgroundColor == "green") {
-					x.style.backgroundColor = "aqua";
+					x.style.backgroundColor = "blue";
 				}
             }
         
