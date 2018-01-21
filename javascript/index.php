@@ -54,6 +54,14 @@
            }
           </script>
         
+        <h2> Uppgift 5</h2>
+         <button onclick="Clear()"> Rensa</button>
+        
+          <script>
+           function Clear(){
+               document.body.innerHTML = "Hej Baok";
+           }
+          </script>
     </body>
 
 
