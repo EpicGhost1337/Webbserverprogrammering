@@ -3,7 +3,14 @@
 <html>
 
     <head>
-    
+        <style>
+            #fargBox{
+                width: 50px;
+                height: 50px;
+                background-color: blue;
+                border: 1px solid black;
+            }
+        </style>
     </head>
 
     <body>
@@ -62,6 +69,51 @@
                document.body.innerHTML = "Hej Baok!";
            }
           </script>
+        
+        <h2> Uppgift 6</h2>
+         <div id="fargBox" onmousedown="Box()"></div>
+          
+        <script>
+            function Box(){
+                var x = document.getElementById("FargBox");
+                if(x.style.backgroundColor == "" || x.style.backgroundColor == "blue" ){
+                     x.style.backgroundColor = "yellow";
+                }
+                else if (x.style.backgroundColor == "yellow") {
+					x.style.backgroundColor = "green";
+                    
+				} 
+                else if (x.style.backgroundColor == "green") {
+					x.style.backgroundColor = "aqua";
+				}
+            }
+        
+        </script>
+            
+        <h2> Uppgift 7</h2>
+         <div id="counter">
+				<p id="number">0</p>
+				<button onmousedown="increase(1)">1</button>
+				<button onmousedown="increase(10)">10</button>
+				<button onmousedown="increase(100)">100</button>
+				<button onmousedown="resetcounter()">Nollställt</button>
+			</div>
+             
+        <script>
+            var count = 0;
+            function increase(x) {
+                counter += x;
+				document.getElementById("number").innerHTML = counter;
+			}
+
+			function resetcounter() {
+				counter = 0;
+				document.getElementById("number").innerHTML = counter;
+			}
+        
+        </script>
+        
+           
     </body>
 
 
