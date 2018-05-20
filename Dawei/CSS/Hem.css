@@ -1,0 +1,49 @@
+#Start{
+    height: 650px;
+    width: 1100px;
+    position: relative;
+    background-color: black;
+    margin: 50px 0 0 200px;
+}
+
+#Hem{
+    width: 500px;
+    height: 250px;
+    margin: 50px 0 0 50px;
+    position: absolute;
+    
+}
+
+#Hem2{
+    width: 500px;
+    height: 300px;
+    margin: 50px 0 0 550px;
+    position: absolute;
+}
+
+#Hem3{
+    width: 500px;
+    height: 300px;
+    margin: 300px 0 0 550px;
+    position: absolute;
+}
+
+#Hem4{
+    height: 300px;
+    width:  500px;
+    margin: 300px 0 0 50px;
+    position: absolute;
+}
+
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+}
+
+h2{
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+}
+
