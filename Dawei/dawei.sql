@@ -83,3 +83,12 @@ VALUES
 (4),(6),(8),(12),(2);
 
 
+CREATE TABLE Drinks (
+Drinks_id int(8) PRIMARY KEY AUTO_INCREMENT, Drinks_name varchar(32), Drinks_price float, Drinks_description text(500));
+
+
+INSERT INTO Drinks (Drinks_name,Drinks_price,Drinks_description)
+VALUES
+("Coca-Cola",15,"Coca-Cola är en kolsyrad läskedryck med colasmak"),
+("Fanta",15,"Läskdryck med smak av apelsin"),
+("Pepsi",15,"Pepsi-Cola, är en kolsyrad läskedryck med smak om cola");

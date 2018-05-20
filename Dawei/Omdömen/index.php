@@ -59,12 +59,10 @@ include("../Templets/navigation.php");
      <div id="container">
       <p id="Lista"> Våra senaste recensioner just nu</p>
 <?php
-         
-    $dbc = mysqli_connect("localhost","root","","dawei");    
+           
     $query = "SELECT * FROM Omdömen ORDER BY Omdömen_id DESC LIMIT 10;";
     $result = mysqli_query($dbc,$query);
-    while($row = mysqli_fetch_array($result)){
-        
+    while($row = mysqli_fetch_array($result)){   
         echo '<div class="content">';
         echo $row['Omdömen_User'] .  " tycker:<br>";
         echo $row['Omdömen_comment'] . "<br>";
@@ -76,9 +74,10 @@ include("../Templets/navigation.php");
             <img width="25px" height="25px" src="../imgs/1495916688christmas-tree-star-png-image-gallery-11.png" />
         
     <?php 
+             } 
              echo "</div>";
              echo "</div>";
-        }
+        
      }   
         
 ?>
