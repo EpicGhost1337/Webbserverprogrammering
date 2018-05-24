@@ -1,7 +1,5 @@
 <?php
-
 include("../Templets/navigation.php");
-
 ?>
  
   <!DOCTYPE html>
@@ -22,7 +20,7 @@ include("../Templets/navigation.php");
         $Comment = $_POST['Kommentar'];
         $stars = $_POST['Sjärna'];
         
-        $query = "INSERT INTO Omdömen (Omdömen_User,Omdömen_Comment,Omdömen_stars) VALUES ('$User','$Comment','$stars');";
+        $query = "INSERT INTO Omdomen (Omdomen_User,Omdomen_Comment,Omdomen_stars) VALUES ('$User','$Comment','$stars');";
         if(mysqli_query($dbc,$query)){
             
             ?>
@@ -60,14 +58,14 @@ include("../Templets/navigation.php");
       <p id="Lista"> Våra senaste recensioner just nu</p>
 <?php
            
-    $query = "SELECT * FROM Omdömen ORDER BY Omdömen_id DESC LIMIT 10;";
+    $query = "SELECT * FROM Omdomen ORDER BY Omdomen_id DESC LIMIT 10;";
     $result = mysqli_query($dbc,$query);
     while($row = mysqli_fetch_array($result)){   
         echo '<div class="content">';
-        echo $row['Omdömen_User'] .  " tycker:<br>";
-        echo $row['Omdömen_comment'] . "<br>";
+        echo $row['Omdomen_User'] .  " tycker:<br>";
+        echo $row['Omdomen_Comment'] . "<br>";
         echo '<div class="stars">';
-        $stars = $row['Omdömen_stars'];	
+        $stars = $row['Omdomen_stars'];	
         for($i = 0 ; $i < $stars ; $i++){
             
 ?>

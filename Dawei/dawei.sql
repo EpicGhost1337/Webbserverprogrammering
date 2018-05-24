@@ -54,12 +54,12 @@ bokning_id int(8) PRIMARY KEY AUTO_INCREMENT, bokning_bord int(8),bokning_tid va
 bokning_datum varchar(32),bokning_antal int(8), bokning_namn varchar(32), bokning_extra text(500),FOREIGN KEY (bokning_id) REFERENCES Bord(bord_id)
 );
 
-CREATE TABLE Omdömen (
-Omdömen_id int(8) PRIMARY KEY AUTO_INCREMENT,
-Omdömen_stars int(1),
-Omdömen_Comment text(500),
-Omdömen_User varchar(32),
-Omdömen_ip varchar(32)
+CREATE TABLE Omdomen (
+Omdomen_id int(8) PRIMARY KEY AUTO_INCREMENT,
+Omdomen_stars int(1),
+Omdomen_Comment text(500),
+Omdomen_User varchar(32),
+Omdomen_ip varchar(32)
 );
 
  CREATE TABLE bord
