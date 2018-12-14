@@ -71,37 +71,6 @@
     z-index: 2;
 }
 
-/* Boxrutan och text på Startsidan*/
-
-#Home_Box {
-    width: 1200px;
-    height: 50px;
-    background-color: yellow;
-    position: absolute;
-    margin: 500px 0 0 25px;
-
-}
-
-#Home_Box h3 {
-    font-family: sans-serif;
-    font-weight: 200;
-    text-transform: uppercase;
-    display: inline-block;
-}
-
-.Img-container {
-    display: flex;
-    justify-content: space-around;
-    background-color: DodgerBlue;
-}
-
-.Img-container > div {
-    background-color: #f1f1f1;
-    margin: 10px;
-    padding: 150px;
-    font-size: 30px;
-}
-
 /*Footer på Startsidan*/
 #footer {
     height: 100px;

@@ -10,19 +10,21 @@
 </head>
 
 <body>
+    <!-- Loggan -->
 
     <head id="Loggan">
         <p>Head</p>
     </head>
+    <!-- Nav -->
     <div id="Navigation">
         <ul>
             <li><a class="active" href="/Gymnasietarbeten/Hem/">Hem</a></li>
             <li><a href="/Gymnasietarbeten/Produkt/">Produkt</a></li>
-            <li><a href="/Gymnasietarbeten/Omdömen">Omdömen</a></li>
             <li><a href="/Gymnasietarbeten/Om oss">Om oss</a></li>
         </ul>
     </div>
-    <div id="main">
+    <!-- main - section -->
+    <section id="main">
         <div id="bildspel">
             <div>
                 <img src="../Img/15W6mpv.jpg" alt="Bildspel" width="1200" height="450" class="bildgalleri">
@@ -37,15 +39,12 @@
                 <img src="../Img/igDwRp5.jpg" alt="Bildspel" width="1200" height="450" class="bildgalleri">
             </div>
         </div>
+        <!-- Section -->
         <section id="Home_Box">
             <h1>Populära produkter</h1>
-            <div class="Img-container">
-                <div href="../Img/"></div>
-                <div>2</div>
-                <div>3</div>
-            </div>
         </section>
-    </div>
+    </section>
+    <!-- Footer -->
     <footer id="footer">
         <p>Footer</p>
     </footer>

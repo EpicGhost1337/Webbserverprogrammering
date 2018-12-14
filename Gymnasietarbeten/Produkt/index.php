@@ -2,21 +2,26 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="../Css/Css.css">
+    <link rel="stylesheet" href="../CSS/Pro.css">
     <meta charset="UTF-8">
-    <title>Produkt</title>
+    <title>Document</title>
 </head>
 
 <body>
-    produkt
-    <div id="Navigation">
+
+    <head id="Loggan">
+        <p>Head</p>
+    </head>
+    <!-- Nav -->
+    <nav id="Navigation">
         <ul>
             <li><a class="active" href="/Gymnasietarbeten/Hem/">Hem</a></li>
             <li><a href="/Gymnasietarbeten/Produkt/">Produkt</a></li>
-            <li><a href="/Gymnasietarbeten/Omdömen">Omdömen</a></li>
             <li><a href="/Gymnasietarbeten/Om oss">Om oss</a></li>
         </ul>
-    </div>
+    </nav>
+    <section id="main">
+    </section>
 </body>
 
 </html>
