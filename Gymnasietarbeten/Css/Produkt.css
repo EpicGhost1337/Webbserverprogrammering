@@ -1,0 +1,89 @@
+
+/*Main struktur på Produkt*/
+#main {
+    height: 1250px;
+    width: 1250px;
+    background-color: transparent;
+    position: relative;
+    margin: 180px 0 0 120px;
+}
+
+#Title {
+    height: 50px;
+    width: 1200px;
+    position: absolute;
+    background-color: transparent;
+    margin: 50px 0 0 25px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+#Title h1 {
+    color: #1b1b1b;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+
+/*Bilder i Produksidan*/
+#Pro_Img {
+    position: relative;
+    margin: 150px 0 0 25px;
+}
+
+#Pro_Img2 {
+    position: relative;
+    margin: 0 0 0 55px;
+
+}
+
+#Pro_Img3 {
+    position: relative;
+    margin: 0 0 0 50px;
+}
+
+#Pro_Img4 {
+    position: relative;
+    margin: 300px 0 0 25px;
+}
+
+#Pro_Img5 {
+    position: relative;
+    margin: 0 0 0 55px;
+
+}
+
+#Pro_Img6 {
+    position: relative;
+    margin: 0 0 0 50px;
+}
+
+/*Title på bilden*/
+
+#Pro_txt1 {
+    height: 100px;
+    width: 365px;
+    position: absolute;
+    background-color: lightgrey;
+    margin: 10px 0 0 24px;
+}
+
+#Pro_txt2 {
+    height: 100px;
+    width: 365px;
+    position: absolute;
+    background-color: lightgrey;
+    margin: 10px 0 0 445px;
+}
+
+#Pro_txt3 {
+    height: 100px;
+    width: 365px;
+    position: absolute;
+    background-color: lightgrey;
+    margin: 10px 0 0 860px;
+}
+
+
