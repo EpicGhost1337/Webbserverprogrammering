@@ -7,7 +7,6 @@
 
 <head>
     <link rel="stylesheet" href="../CSS/Produkt.css">
-    <script src="../Javascript_Query/Script.js"></script>
     <meta charset="UTF-8">
     <title>Document</title>
 </head>
