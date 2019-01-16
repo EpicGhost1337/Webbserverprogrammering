@@ -7,7 +7,7 @@
 
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="../Javascript_Query/Script.js"></script>
+    <script src="../Js/Script.js"></script>
     <link rel="stylesheet" href="../CSS/Home.css">
     <meta charset="UTF-8">
     <title>Document</title>
@@ -32,7 +32,7 @@
         </div>
         <!-- Section -->
         <section id="Home_Box">
-            <h1>Populära produkter</h1>
+            <h1>Featured</h1>
         </section>
 
         <!-- bilder -->

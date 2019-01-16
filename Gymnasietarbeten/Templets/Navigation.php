@@ -15,15 +15,8 @@
     <nav id="Navigation">
         <ul>
             <li><a href="../Hem/index.php">Hem</a></li>
-            <li class="dropdown">
-                <a href="../Produkt/index.php" class="dropbtn">Produkt</a>
-                <div class="dropdown-content">
-                    <a href="#">Cpu</a>
-                    <a href="#">Gpu</a>
-                    <a href="#">Chasset</a>
-                </div>
-            </li>
-            <li><a href="../Om%2520oss/index.php">Om Oss</a></li>
+            <li><a href="../Produkt/index.php">Produkt</a></li>
+            <li><a href="../Om%20oss/index.php">Om Oss</a></li>
         </ul>
     </nav>
 </body>
