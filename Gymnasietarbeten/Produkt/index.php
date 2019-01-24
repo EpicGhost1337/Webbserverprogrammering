@@ -5,7 +5,7 @@
 <html>
 
 <head>
-    <title>PHP Ajax Shopping Cart by using Bootstrap Popover</title>
+    <title>Produkt</title>
     <script src="../Js/jquery.min.js"></script>
     <link rel="stylesheet" href="../Css/bootstrap.min.css" />
     <script src="../Js/bootstrap.min.js"></script>

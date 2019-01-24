@@ -2,21 +2,23 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="../Css/Css.css">
+    <link rel="stylesheet" href="../Css/OmOss.css">
     <meta charset="UTF-8">
     <title>Om oss</title>
 </head>
 
 <body>
-    Om oss
-    <div id="Navigation">
-        <ul>
-            <li><a class="active" href="/Gymnasietarbeten/Hem/">Hem</a></li>
-            <li><a href="/Gymnasietarbeten/Produkt/">Produkt</a></li>
-            <li><a href="/Gymnasietarbeten/Omdömen">Omdömen</a></li>
-            <li><a href="/Gymnasietarbeten/Om oss">Om oss</a></li>
-        </ul>
-    </div>
+    <?php
+ include("../Templets/Navigation.php");
+?>
+
+    <section id="main_about">
+        <section id="OmOss">
+           <h1>Om Oss</h1>
+            <article id="txt"></article>
+        </section>
+
+    </section>
 </body>
 
 </html>

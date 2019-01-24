@@ -1,0 +1,33 @@
+#main_about {
+    height: 1000px;
+    width: 1250px;
+    background-color: royalblue;
+    position: relative;
+    margin: 180px 0 0 120px;
+}
+
+#OmOss {
+    height: 50px;
+    width: 1200px;
+    position: absolute;
+    background-color: transparent;
+    margin: 50px 0 0 25px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+#OmOss h1{
+    color: #1b1b1b;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+
+#txt {
+    max-width: 750px;
+    padding: 100px;
+    margin: 50px 0 0 120px;
+    
+}
