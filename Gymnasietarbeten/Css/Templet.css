@@ -9,7 +9,7 @@ body {
     border-bottom: medium none;
     float: left;
     margin-bottom: 0;
-    margin-top: 100px;
+    margin-top: 25px;
     margin-left: 205px;
     padding: 30px 0px;
     position: relative;
@@ -78,12 +78,81 @@ li.dropdown {
     display: block;
 }
 
+#logg {
+    margin: 25px 0 0 600px;
+    position: relative;
+}
+
 
 /*Footer på Alla Sidor*/
 #footer {
-    height: 100px;
-    width: 1200px;
+    height: 125px;
+    width: 1250px;
     position: relative;
-    background-color: red;
-    margin: 1300px 0 0 120px;
+    background-color: transparent;
+    margin: 150px 0 0 125px;
+}
+
+.footernav {
+    float: right;
+    position: relative;
+    max-width: 60%;
+}
+
+.footernav ul {
+    line-height: normal;
+    text-align: right;
+    white-space: normal;
+}
+
+.footernav ul li {
+    font-size: 14px;
+    line-height: 21px;
+    font-size: 0.875rem;
+    line-height: 1.3125rem;
+    display: inline-block;
+    list-style: none;
+    margin-bottom: 16px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+.footernav a {
+    color: #919191;
+    text-decoration: none;
+}
+
+.social_footer {
+    list-style: none;
+    left: 0px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 5px;
+}
+
+.social_footer li {
+    display: block;
+    padding: 0 12px;
+
+}
+
+.social_footer li a {
+    color: #919191;
+    text-decoration: none;
+    
+}
+
+#Kontakt{
+    margin: 0;
+}
+
+#Kontakt table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 300px;
+    color: black;
+    position: absolute;
+    margin: 50px 0 0 450px;
+    font-size: 0.5em;
 }

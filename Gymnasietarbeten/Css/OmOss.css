@@ -1,7 +1,7 @@
 #main_about {
     height: 1000px;
     width: 1250px;
-    background-color: royalblue;
+    background-color: transparent;
     position: relative;
     margin: 180px 0 0 120px;
 }
@@ -21,6 +21,7 @@
     margin: 0 auto;
     margin-bottom: 0px;
     text-align: center;
+    margin-right: 25px;
     font-size: 1.5em;
     font-family: sans-serif;
 }
@@ -28,6 +29,40 @@
 #txt {
     max-width: 750px;
     padding: 100px;
-    margin: 50px 0 0 120px;
-    
+    margin: 25px 0 0 120px;
+}
+
+#txt p{
+    text-align: center;
+    margin: 0;
+    color: black;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    word-spacing: 1px;
+}
+
+#Info{
+     position: absolute;
+     margin: 600px 0 0 275px;
+}
+
+#Info h1{
+    color: #1b1b1b;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    text-align: center;
+    margin-right: 25px;
+    font-size: 1.5em;
+    font-family: sans-serif; 
+}
+#1{
+   position: relative;
+}
+#2{
+    position: relative;
+}
+
+#3{
+    position: relative;
 }

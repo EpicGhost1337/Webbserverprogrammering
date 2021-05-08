@@ -50,11 +50,11 @@
         <div id="popover_content_wrapper" style="display: none">
             <span id="cart_details"></span>
             <div align="right">
-                <a href="#" class="btn btn-primary" id="check_out_cart">
-                    <span class="glyphicon glyphicon-shopping-cart"></span> Check out
+                <a href="Kassa.php" class="btn btn-primary" id="check_out_cart">
+                    <span class="glyphicon glyphicon-shopping-cart"></span> Checka ut
                 </a>
                 <a href="#" class="btn btn-default" id="clear_cart">
-                    <span class="glyphicon glyphicon-trash"></span> Clear
+                    <span class="glyphicon glyphicon-trash"></span> Rensa
                 </a>
             </div>
         </div>
@@ -65,6 +65,9 @@
         </div>
 
     </div>
+    <?php
+ include("../Templets/Footer.php");
+?>
 </body>
 
 </html>
@@ -126,18 +129,18 @@
                     },
                     success: function(data) {
                         load_cart_data();
-                        alert("Item has been Added into Cart");
+                        alert("Produkten har tagit in i kassa");
                     }
                 });
             } else {
-                alert("lease Enter Number of Quantity");
+                alert("Skriv hur mycket av produkten");
             }
         });
 
         $(document).on('click', '.delete', function() {
             var product_id = $(this).attr("id");
             var action = 'remove';
-            if (confirm("Are you sure you want to remove this product?")) {
+            if (confirm("Är du säker du vill ta bort denna produkten?")) {
                 $.ajax({
                     url: "action.php",
                     method: "POST",
@@ -148,7 +151,7 @@
                     success: function() {
                         load_cart_data();
                         $('#cart-popover').popover('hide');
-                        alert("Item has been removed from Cart");
+                        alert("Produkten har tagit bort från Kassa");
                     }
                 })
             } else {
@@ -167,7 +170,7 @@
                 success: function() {
                     load_cart_data();
                     $('#cart-popover').popover('hide');
-                    alert("Your Cart has been clear");
+                    alert("Din kassa har rensat");
                 }
             });
         });

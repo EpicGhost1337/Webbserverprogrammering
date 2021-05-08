@@ -1,0 +1,30 @@
+/*
+ Theme Name:   Adler Child
+ Theme URI:    http://example.com/adler-child/
+ Description:  Adler Theme
+ Author:       Andy Te16D
+ Author URI:   http://example.com
+ Template:     Adler
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:   Adler-child
+*/
+
+p{
+    color: white;
+}
+
+b,strong{
+    color: white;
+}
+
+a{
+    color: dodgerblue;
+}
+
+h1{
+    color: white;
+}
+

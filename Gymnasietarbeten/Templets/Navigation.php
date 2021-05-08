@@ -10,7 +10,7 @@
 <body>
 
     <head id="Loggan">
-        <p>Head</p>
+        <img id="logg" src="../Img/Gymnasietprojekt.png" height="250" width="250">
     </head>
     <nav id="Navigation">
         <ul>

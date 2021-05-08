@@ -10,7 +10,7 @@
     <script src="../Js/Script.js"></script>
     <link rel="stylesheet" href="../CSS/Home.css">
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Hem</title>
 </head>
 
 <body>
@@ -32,25 +32,29 @@
         </div>
         <!-- Section -->
         <section id="Home_Box">
-            <h1>Featured</h1>
+            <h1>Vi erbjuder</h1>
         </section>
 
         <!-- bilder -->
-        <img id="Home_Img" src="../Img/i5.png" witdth="300px" height="300px">
-        <img id="Home_Img2" src="../Img/amd5.png" witdth="300px" height="300px">
-        <img id="Home_Img3" src="../Img/amd7.png" witdth="300px" height="300px">
+        <img id="Home_Img" src="../Img/Frakt.png" witdth="300px" height="300px">
+        <img id="Home_Img2" src="../Img/Support.png" witdth="300px" height="300px">
+        <img id="Home_Img3" src="../Img/Trygg.png" witdth="300px" height="300px">
 
         <!-- Textruta -->
         <div id="Home_txt">
-            <b src=""></b>
+             <h1>Fri Frakt</h1>
+             <p></p>
         </div>
         <div id="Home_txt2">
-            <b></b>
+            <h1>Supporte 24/7</h1>
         </div>
         <div id="Home_txt3">
-            <b></b>
+            <h1>Trygg E-handel</h1>
         </div>
     </section>
+    <?php
+ include("../Templets/Footer.php");
+?>
 </body>
 
 </html>

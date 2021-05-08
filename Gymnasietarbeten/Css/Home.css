@@ -1,11 +1,10 @@
-
 /*Main struktur på Starsidan*/
 #main {
     height: 1000px;
     width: 1250px;
     background-color: transparent;
     position: relative;
-    margin: 180px 0 0 120px;
+    margin: 100px 0 0 120px;
 }
 
 /*Bildspel för startsidan*/
@@ -63,25 +62,37 @@
     height: 100px;
     width: 365px;
     position: absolute;
-    background-color: lightgrey;
+    background-color: transparent;
     margin: 10px 0 0 24px;
+    border-bottom: 1px solid black;
+}
+
+#Home_txt h1{
+    text-align: center;
 }
 
 #Home_txt2 {
     height: 100px;
     width: 365px;
     position: absolute;
-    background-color: lightgrey;
+    background-color: transparent;
     margin: 10px 0 0 445px;
+    border-bottom: 1px solid black;
+}
+
+#Home_txt2 h1{
+    text-align: center;
 }
 
 #Home_txt3 {
     height: 100px;
     width: 365px;
     position: absolute;
-    background-color: lightgrey;
+    background-color: transparent;
     margin: 10px 0 0 860px;
+    border-bottom: 1px solid black;
 }
 
-
-
+#Home_txt3 h1{
+    text-align: center;
+}
